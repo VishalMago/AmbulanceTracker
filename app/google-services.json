@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "63486099093",
+    "firebase_url": "https://ambulancetracker-585dd.firebaseio.com",
+    "project_id": "ambulancetracker-585dd",
+    "storage_bucket": "ambulancetracker-585dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63486099093:android:8bcbb4a3333a7c65",
+        "android_client_info": {
+          "package_name": "com.example.vishalmago.ambulancedriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63486099093-7shcm8fdub9gssu6vgd0rnhdap45kk31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4H1RYYOTKSY2B926suWhldViFF7lY-tE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

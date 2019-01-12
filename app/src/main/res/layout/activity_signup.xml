@@ -14,7 +14,6 @@
         <ImageView
             android:layout_width="wrap_content"
             android:src="@drawable/main"
-            android:layout_marginTop="30dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"/>
         <TextView
@@ -27,6 +26,16 @@
             android:textStyle="bold"
             android:textSize="30sp"
             />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:hint="Name"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:id="@+id/editTextName"
+            android:layout_centerHorizontal="true" />
 
         <EditText
             android:layout_width="match_parent"
@@ -38,7 +47,6 @@
             android:drawableLeft="@drawable/ic_mail_black_24dp"
             android:id="@+id/editTextEmail"
             android:layout_centerHorizontal="true" />
-
         <EditText
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -49,44 +57,38 @@
             android:drawableLeft="@drawable/ic_https_black_24dp"
             android:id="@+id/editTextPassword"
             android:layout_centerHorizontal="true" />
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_my_location_black_24dp"
+            android:inputType="text"
+            android:ems="10"
+            android:hint="Ambulance Number"
+            android:id="@+id/editBusStop"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true" />
+
 
         <Button
             android:layout_width="260dp"
             android:layout_height="wrap_content"
             android:textAllCaps="false"
-            android:text="LOGIN"
+            android:text="REGISTER"
             android:background="@drawable/button_background"
-            android:id="@+id/buttonLogin"
+            android:id="@+id/buttonRegister"
             android:textColor="@android:color/white"
             android:layout_marginTop="30dp"
             android:layout_gravity="center" />
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:layout_height="match_parent">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Create an Account"
-                android:textColor="@color/colorAccent"
-                android:clickable="true"
-                android:textSize="15sp"
-                android:layout_marginTop="30dp"
-                android:id="@+id/csignup" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Forgot password"
-                android:textColor="@color/colorAccent"
-                android:clickable="true"
-                android:textSize="15sp"
-                android:id="@+id/fpassword"
-                android:layout_alignTop="@+id/csignup"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true" />
-        </RelativeLayout>
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already Registered?"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:id="@+id/textSignIn"
+            android:textSize="15sp"/>
     </LinearLayout>
 </ScrollView>
